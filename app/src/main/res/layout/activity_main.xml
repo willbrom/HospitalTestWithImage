@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.hospitaltestwithimage.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reception" />
+
+    <include
+        layout="@layout/bottom_screen"
+        android:layout_height="270dp"
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/profile_bar_imageView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginBottom="92dp"-->
+        <!--android:visibility="visible"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/mic_imageView"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:srcCompat="@drawable/text_box" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/profile_textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginStart="14dp"-->
+        <!--android:textColor="#e9e9e9"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/profile_imageView"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/profile_imageView"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/profile_imageView" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/profile_imageView"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_marginStart="12dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/profile_bar_imageView"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/profile_bar_imageView"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/profile_bar_imageView" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/mic_imageView"-->
+        <!--android:layout_width="72dp"-->
+        <!--android:layout_height="72dp"-->
+        <!--android:layout_marginBottom="12dp"-->
+        <!--android:layout_marginStart="16dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/imageView"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:srcCompat="@drawable/mic" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView6"-->
+        <!--android:layout_width="96dp"-->
+        <!--android:layout_height="87dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginStart="88dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/mic_imageView"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/profile_bar_imageView"-->
+        <!--app:layout_constraintVertical_bias="0.0"-->
+        <!--app:srcCompat="@drawable/img_11" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView7"-->
+        <!--android:layout_width="96dp"-->
+        <!--android:layout_height="87dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/imageView6"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/imageView6"-->
+        <!--app:srcCompat="@drawable/img_12" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/doc_ahmed_textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:text="Dr. Ahmed"-->
+        <!--android:textColor="#454444"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/imageView6"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/imageView6"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/imageView6" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/doc_nancy_textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:text="Dr. Nancy"-->
+        <!--android:textColor="#454444"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/imageView7"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/imageView7"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/imageView7" />-->
+
+</android.support.constraint.ConstraintLayout>
